@@ -1,0 +1,307 @@
+.login-top {
+	width: 990px;
+	height: 75px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	margin-right: 14px;
+}
+
+.login-top a:nth-child(2) {
+	display: block;
+	float: right;
+	color: #999999;
+	font-size: 14px;
+	margin-top: 45px;
+}
+
+.login-top a:nth-child(2):hover {
+	color: #E4393C;
+	text-decoration: underline;
+}
+
+
+/*网络安全法*/
+
+.content {
+	background-color: #FFF8F0;
+	height: 40px;
+	line-height: 40px;
+	color: #999;
+	text-align: center;
+	font-size: 13px;
+}
+
+.content span {
+	color: black;
+	cursor: pointer;
+}
+
+.content span:hover {
+	text-decoration: underline;
+}
+
+
+/*banner*/
+
+#login-banner {
+	height: 475px;
+	background-color: #6314E9;
+}
+
+#bg-img {
+	width: 990px;
+	height: 475px;
+	margin: 0 auto;
+	background: url(../image/ba3948878973d963.jpg);
+}
+
+
+/*登陆主体*/
+
+#box {
+	margin-top: 10px;
+	float: right;
+	width: 346px;
+	background-color: #FFFFFF;
+}
+
+
+/*扫码  账户*/
+
+.box-top {
+	border-bottom: 1px solid #F4F4F4;
+	height: 55px;
+	line-height: 55px;
+}
+
+.box-top ul li {
+	margin-top: 18px;
+	display: block;
+	width: 172px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-right: 1px solid #F4F4F4;
+	font-size: 18px;
+	color: #999;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.box-top ul li:hover {
+	color: #E4393C;
+	font-weight: bold;
+}
+
+
+/*扫码  账户  end*/
+
+
+/*二维码*/
+
+.two img {
+	margin: 20px 90px;
+	border: 1px solid #F4F4F4;
+	padding: 10px;
+}
+
+
+/*免输入*/
+
+.box-lis p {
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+}
+
+.box-lis p span {
+	color: #E4393C;
+	margin-right: 13px;
+	cursor: pointer;
+}
+
+.box-lis ul {
+	padding-left: 55px;
+	height: 60px;
+	line-height: 60px;
+	color: #999;
+	font-size: 13px;
+}
+
+.box-lis ul li {
+	width: 80px;
+	text-align: center;
+}
+
+
+/*免输入  end*/
+
+
+/*QQ 微信  立即注册*/
+
+.box-bottom {
+	border-top: 1px solid #F4F4F4;
+	background: #fcfcfc;
+}
+
+.box-bottom li {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	width: 50px;
+	height: 15px;
+	line-height: 15px;
+	border-left: 1px solid #D5CCD5;
+	text-align: center;
+}
+
+.box-bottom li a {
+	color: #666;
+	font-size: 13px;
+}
+
+.box-bottom li a:hover {
+	color: #E4393C;
+	text-decoration: underline;
+}
+
+.box-bottom p a {
+	margin-top: 12px;
+	color: #E4393C;
+	width: 80px;
+	font-size: 16px;
+	float: right;
+	cursor: pointer;
+}
+
+.box-bottom p a:hover {
+	text-decoration: underline;
+}
+
+
+/*QQ 微信  立即注册  end*/
+
+
+/*帐号密码登录*/
+#warn {
+	display: block;
+	height: 20px;
+	border: 1px solid #FACCC6;
+	background: #FFEBEB;
+	font-size: 13px;
+	padding: 2px;
+	color: #E4393C;
+	margin-left: 20px;
+	padding-left: 20px;
+	width: 280px;
+	margin-top: 5px;
+	opacity: 0;
+}
+
+.box-lis i {
+	float: left;
+	background: #F4F4F4;
+	display: block;
+	color: #D4D4D4;
+	font-size: 20px;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	border: 1px solid #BDBDBD;
+	border-right: 0;
+}
+
+.box-lis input {
+	padding-left: 10px;
+	height: 40px;
+	width: 265px;
+	outline: 0;
+	border: 1px solid #BDBDBD;
+}
+
+.p-lock {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 306px;
+	height: 40px;
+}
+
+.box-lis a {
+	color: #666;
+	font-size: 12px;
+	float: right;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-right: 25px;
+}
+
+.box-lis a:hover {
+	text-decoration: underline;
+	color: #E4393C;
+}
+
+#btn {
+	font-size: 20px;
+	display: block;
+	margin-left: 23px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	width: 303px;
+	border: 1px solid #E4393C;
+	height: 40px;
+	color: white;
+	background: #E4393C;
+}
+
+
+/*帐号密码登录  end*/
+
+
+/*footer*/
+
+footer {
+	margin: 15px auto;
+	width: 990px;
+}
+
+footer ul {
+	margin: 0 auto;
+	width: 850px;
+}
+
+footer li {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #666666;
+}
+
+footer li:nth-child(even) {
+	width: 30px;
+	text-align: center;
+}
+
+footer li:nth-child(odd):hover {
+	color: #E4393C;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.footer-b {
+	margin-top: 5px;
+	width: 990px;
+	color: #666666;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/*footer  end*/

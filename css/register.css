@@ -1,0 +1,351 @@
+/*遮罩*/
+
+.bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000;
+	opacity: 0.1;
+	z-index: 99;
+}
+
+#show {
+	width: 945px;
+	height: 595px;
+	background: white;
+	position: absolute;
+	left: 400px;
+	top: 200px;
+	z-index: 100;
+	display: none;
+	box-shadow: 0px 0px 5px 5px #C4C4C4;
+	border-radius: 3px
+}
+
+#show-top {
+	height: 32px;
+	background: #F3F3F3;
+}
+
+#show-top b {
+	padding-left: 10px;
+	float: left;
+	display: block;
+	width: 200px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+}
+
+#show-top a {
+	position: absolute;
+	right: 0px;
+	display: block;
+	font-size: 30px;
+	color: #bbb;
+	width: 30px;
+	height: 30px;
+	margin-top: -6px;
+}
+
+#show-body {
+	width: 920px;
+	height: 443px;
+	overflow-y: scroll;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+#show-foot {
+	margin: 0 auto;
+	width: 430px;
+	height: 54px;
+}
+
+#show-foot a {
+	display: block;
+	height: 54px;
+	width: 200px;
+	float: left;
+	color: #999999;
+	background: #E3E4E5;
+	font-size: 16px;
+	line-height: 54px;
+	text-align: center;
+}
+
+#show-foot button {
+	border: 0;
+	height: 54px;
+	width: 200px;
+	float: right;
+	background: #EE2222;
+	color: white;
+	font-size: 16px;
+}
+
+/*遮罩  end*/
+
+
+/*调查问卷*/
+
+#dcwj {
+	position: fixed;
+	right: 0;
+	top: 345px;
+	height: 135px;
+	width: 35px;
+	background: url(../image/zhuce-icon1.jpg) no-repeat;
+	background-position: -367px 0px;
+}
+
+#dcwj:hover {
+	background-position: -334px 0px;
+}
+
+
+/*调查问卷  end*/
+
+
+/*顶部*/
+
+header {
+	height: 100px;
+	box-shadow: 0 0 5px 5px #EFEFEFfc;
+}
+
+.container {
+	width: 1210px;
+	height: 76px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 50px;
+	margin-top: 20px;
+	background: url(../image/zhuce-icon1.jpg);
+}
+
+.logo-title {
+	margin-left: 15px;
+	margin-top: 35px;
+	font-size: 25px;
+	float: left;
+}
+
+.header-r {
+	margin-top: 50px;
+	float: right;
+	font-size: 16px;
+}
+
+.header-r a {
+	margin-left: 10px;
+	color: #EE2222;
+}
+
+.header-r a:hover {
+	color: #C81623;
+	text-decoration: underline;
+}
+
+
+/*顶部  end*/
+
+
+/*主体*/
+
+.box {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#box-top {
+	height: 80px;
+}
+
+#box-top img {
+	margin-left: -5px;
+}
+
+#phone {
+	/*手机号*/
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#phone:hover>select {
+	border-color: #999;
+}
+
+#phone:hover>input {
+	border-color: #999;
+}
+
+#phone select {
+	cursor: pointer;
+	outline: none;
+	width: 108px;
+	height: 49px;
+	padding-left: 10px;
+	float: left;
+	border-right: 0;
+	border-color: #ddd;
+}
+
+#phone input {
+	border: 1px solid #ddd;
+	float: left;
+	outline: none;
+	width: 288px;
+	height: 49px;
+	padding-left: 10px;
+}
+
+#warn {
+	/*验证提示*/
+	display: block;
+	width: 395px;
+	height: 15px;
+	margin-top: 2px;
+	color: #C5C5C5;
+	font-size: 12px;
+	margin-bottom: 15px;
+	opacity: 0;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+	color: #333;
+	width: 396px;
+	height: 53px;
+	background: white;
+	border: 1px solid #DDDDDD;
+}
+
+button:hover {
+	border-color: #666;
+}
+
+.next {
+	margin-top: 50px;
+	display: block;
+	width: 396px;
+	height: 55px;
+	color: white;
+	font-size: 17px;
+	line-height: 55px;
+	text-align: center;
+	background: #E2231A;
+}
+
+.next:hover {
+	background-color: #C81623;
+}
+
+
+/*企业用户*/
+
+#box-bottom {
+	margin-top: 25px;
+	width: 400px;
+	height: 50px;
+}
+
+#box-bottom em {
+	margin-right: 10px;
+	float: left;
+	display: block;
+	width: 25px;
+	height: 25px;
+}
+
+#box-bottom a {
+	color: #333;
+	font-size: 13px;
+}
+
+#box-bottom a:hover {
+	color: #C81623;
+}
+
+#box-b-l {
+	height: 25px;
+	line-height: 25px;
+	float: left;
+}
+
+#box-b-l em {
+	background: url(../image/zhuce-icon.jpg);
+	background-position: 0px -161px;
+}
+
+#box-b-r {
+	height: 25px;
+	line-height: 25px;
+	float: right;
+}
+
+#box-b-r em {
+	background: url(../image/zhuce-icon.jpg);
+	background-position: -40px -161px;
+}
+
+/*企业用户  end*/
+
+
+/*主体  end*/
+
+
+/*footer*/
+
+footer {
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 200px;
+	width: 1210px;
+	border-top: 1px solid #E6E6E6;
+}
+
+.footer-t {
+	margin: 20px auto;
+	width: 900px;
+}
+
+footer li {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #999999;
+}
+
+footer li:nth-child(even) {
+	width: 30px;
+	text-align: center;
+}
+
+footer li:nth-child(odd):hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.footer-b {
+	margin: 5px auto;
+	width: 990px;
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/*footer  end*/

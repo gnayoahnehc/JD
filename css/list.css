@@ -1,0 +1,957 @@
+/* 顶端菜单*/
+
+.top {
+	margin: 0 auto;
+	width: 1200px;
+	height: 30px;
+	line-height: 30px;
+	color: #A2A2A2;
+	font-size: 13px;
+	background: #fff;
+}
+
+.top-l {
+	float: left;
+	height: 30px;
+}
+
+.top-l a {
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	float: left;
+	color: #A2A2A2;
+}
+
+.top-l a:hover {
+	color: #F30213;
+}
+
+
+/*定位*/
+
+#dinwei {
+	text-align: center;
+	float: left;
+	height: 30px;
+	width: 68px;
+	cursor: default;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+#dinwei span {
+	position: relative;
+	display: block;
+	width: 68px;
+	height: 30px;
+}
+
+.zz {
+	display: block;
+	background: #fff;
+	position: absolute;
+}
+
+#dw-lis {
+	z-index: 2;
+	position: absolute;
+	margin-left: -1px;
+	width: 310px;
+	height: 359px;
+	border: 1px solid #A2A2A2;
+	display: none;
+	background: #fff;
+}
+
+#dw-lis ul {
+	margin: 10px 5px;
+	font-size: 12px;
+}
+
+#dw-lis ul li {
+	text-align: center;
+	width: 40px;
+	height: 24px;
+	line-height: 24px;
+	margin: 3px 10px;
+}
+
+#dw-lis li:hover {
+	background-color: #F4F4F4;
+	color: #F30213;
+}
+
+#dw-lis div {
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 5px;
+}
+
+.clicked {
+	background: #F30213;
+	color: white;
+}
+
+
+/*定位  end */
+
+.top-r {
+	float: right;
+}
+
+.top-r ol li {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+.top-r ol li:nth-child(even) {
+	color: #ccc;
+	font-size: 12px;
+}
+
+.top-r ol li a {
+	color: #999999;
+	margin: 0 10px;
+	font-size: 10px;
+}
+
+.top-r ol li a:hover {
+	color: #F30213;
+}
+
+.top-r ol li i {
+	margin-right: 5px;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+.top-lis {
+	position: relative;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.top-lis div {
+	background: #fff;
+	z-index: 10;
+	position: absolute;
+	display: none;
+	border: 1px solid #ccc;
+}
+
+.top-lis:hover {
+	background-color: white;
+	border-color: #ccc;
+}
+
+.top-lis:hover>div {
+	display: block;
+}
+
+
+/* 顶端菜单  end*/
+
+
+/*导航*/
+
+nav {
+	height: 80px;
+	background: #fff;
+}
+
+#nav {
+	width: 1200px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	width: 224px;
+	height: 80px;
+	background: url(../image/yishu/logo.png) no-repeat;
+}
+
+.nav-lis {
+	display: inline-block;
+	width: 500px;
+}
+
+.nav-lis li {
+	position: relative;
+	text-align: center;
+	height: 80px;
+	width: 90px;
+	line-height: 80px;
+}
+
+.nav-lis a {
+	color: #282828;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav-lis li b {
+	position: absolute;
+	top: 63px;
+	left: 37px;
+	display: none;
+	height: 3px;
+	width: 15px;
+	background: #282828;
+}
+
+.nav-lis li:hover>b {
+	display: block;
+}
+
+
+/*搜索框*/
+
+.nav-r {
+	position: relative;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	float: right;
+}
+
+.nav-r input {
+	margin-right: 20px;
+	margin-top: 25px;
+	font-size: 17px;
+	font-weight: 200;
+	height: 30px;
+	outline: none;
+	width: 320px;
+	padding-left: 10px;
+	display: inline-block;
+	border: 0;
+	border-bottom: 1px solid #DFDFDF;
+	color: #868686;
+}
+
+.search-lis {
+	position: absolute;
+	z-index: 10;
+	top: 80px;
+	left: 0px;
+	display: none;
+	width: 320px;
+	height: 240px;
+	background: #fff;
+}
+
+.search-lis p {
+	color: #000000;
+	cursor: pointer;
+	padding-left: 11px;
+	font-size: 16px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+}
+
+.search-lis p:hover {
+	background: #dfdfdf;
+	font-weight: bold;
+}
+
+.nav-r a {
+	color: #282828;
+	font-size: 23px;
+	display: inline-block;
+	float: right;
+}
+
+
+/*搜索框  end*/
+
+
+/*nav  黑*/
+
+#nav-black {
+	display: none;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	background: rgba(0, 0, 0, .9);
+}
+
+#nav-black li a {
+	color: white;
+}
+
+#nav-black b {
+	background: #fff;
+}
+
+#nav-black p {
+	color: white;
+	cursor: pointer;
+	padding-left: 11px;
+	font-size: 16px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+}
+
+#nav-black p:hover {
+	background: #282828;
+	font-weight: bold;
+}
+
+
+/*nav  黑  end*/
+
+.search-lis p {
+	cursor: pointer;
+	padding-left: 11px;
+	font-size: 16px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+}
+
+.search-lis p:hover {
+	background: #dfdfdf;
+	font-weight: bold;
+}
+
+
+/*导航  end*/
+
+#lou{
+	position: fixed;
+	right: 100px;
+	top: 550px;
+	width: 50px;
+	z-index: 999;
+	color: #fff;
+	display: none;
+}
+
+#lou li {
+	cursor: pointer;
+	display: block;
+	height: 30px;
+	width: 50px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #000;
+	background: rgba(0,0,0,.9);
+	margin-top: 2px;
+}
+
+#lou li:hover {
+	color: #000;
+	background: #fff;
+	
+}
+
+/*巨幕*/
+
+#jumbotron {
+	position: relative;
+	z-index: 1;
+	height: 420px;
+}
+
+#jumbotron img {
+	display: none;
+	position: absolute;
+	z-index: 0;
+}
+
+.jumb-b {
+	position: relative;
+	display: block;
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+}
+
+.jumb-b article {
+	height: 420px;
+	width: 224px;
+	background: rgba(0, 0, 0, .7);
+}
+
+.jumb-b dl {
+	display: block;
+	width: 224px;
+	height: 80px;
+}
+
+.jumb-b dl a {
+	color: white;
+	margin-left: 20px;
+}
+
+.jumb-b dl dt {
+	font-size: 16px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+}
+
+.jumb-b dl dd {
+	float: left;
+	font-size: 14px;
+}
+
+.jumb-b dl dd a:hover {
+	text-decoration: underline;
+}
+
+.jumb-lis {
+	position: absolute;
+	right: 0px;
+	bottom: 20px;
+	display: block;
+}
+
+.jumb-lis li {
+	cursor: pointer;
+	font-size: 12px;
+	margin-right: 6px;
+	color: #282828;
+	background: #fff;
+	text-align: center;
+	display: block;
+	width: 17px;
+	height: 17px;
+	line-height: 17px;
+	float: left;
+}
+
+.curr {
+	background: #282828 !important;
+	color: #fff !important;
+}
+
+
+/*巨幕  end*/
+
+.bti {
+	width: 1200px;
+	height: 48px;
+	margin: 0 auto;
+	padding-top: 85px;
+	margin-bottom: 28px;
+}
+
+.bti img {
+	display: block;
+	width: 255px;
+	height: 48px;
+	margin: 0 auto;
+}
+
+
+/*作品推荐*/
+
+.zptj {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.zptj-nav {
+	display: block;
+	width: 1200px;
+	height: 51px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.zptj-nav li {
+	position: relative;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+	width: 140px;
+	height: 50px;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	color: #282828;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.zptj-nav li b {
+	position: absolute;
+	bottom: 1px;
+	left: 62px;
+	display: none;
+	height: 3px;
+	width: 16px;
+	background: #282828;
+}
+
+.zptj-nav li em {
+	display: none;
+	position: absolute;
+	top: 49px;
+	left: 0;
+	height: 2px;
+	width: 140px;
+	background: #fff;
+}
+
+.zptj-lis ol {
+	padding-top: 25px;
+	border-top: 1px solid #DFDFDF;
+	width: 1200px;
+	height: 224px;
+	margin: 0 auto;
+}
+
+.zptj-lis li {
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	display: block;
+	width: 224px;
+	height: 224px;
+}
+
+.zptj-lis li:hover>a {
+	display: block;
+}
+
+.zptj-lis li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: block;
+	width: 224px;
+	height: 224px;
+}
+
+.zptj-lis li a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: none;
+	width: 224px;
+	height: 224px;
+	background: rgba(0, 0, 0, .7);
+	color: white;
+}
+
+.zptj-lis li a h3 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.zptj-lis li a p {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/*作品推荐    end*/
+
+
+/*艺术专题*/
+
+.yszt {
+	margin-top: 100px;
+	height: 580px;
+	background: url(../image/yishu/5a2f758fN63cc696b.png) no-repeat;
+}
+
+#yszt-sfq {
+	width: 1200px;
+	height: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.yszt-sfq-lis {
+	position: relative;
+	float: left;
+	width: 224px;
+	height: 320px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+.yszt-sfq-lis div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 35px 15px;
+	height: 250px;
+	width: 100%;
+	background: rgba(0, 0, 0, .3);
+	color: white;
+	cursor: pointer;
+}
+
+.yszt-sfq-lis div h2 {
+	display: block;
+	width: 438px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.yszt-sfq-lis div p {
+	display: block;
+	width: 438px;
+	font-size: 14px;
+}
+
+
+/*艺术专题  end*/
+
+
+/*艺术机构*/
+
+.ysjg {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.ysjg ol {
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.ysjg ol li {
+	position: relative;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 222px;
+	height: 99px;
+	border: 1px solid #DFDFDF;
+}
+
+.ysjg ol li img {
+	width: 222px;
+}
+
+.ysjg ol li div {
+	display: none;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, .7);
+	color: white;
+	line-height: 99px;
+}
+
+.ysjg p {
+	font-size: 15px;
+	text-align: center;
+}
+
+.ysjg p i {
+	margin-left: 3px;
+	font-size: 12px;
+}
+
+.ysjg ol li:hover>div {
+	display: block;
+}
+
+
+/*艺术机构  end*/
+
+
+/*艺术家*/
+
+.ysj-l {
+	float: left;
+	width: 70px;
+	height: 352px;
+}
+
+.ysj-l em {
+	display: block;
+	width: 68px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #282828;
+	border: 1px solid transparent;
+	margin: 12px auto;
+}
+
+.ysj-l em:hover {
+	border-color: #DFDFDF;
+}
+
+.ysj-l-lis {
+	position: relative;
+	height: 220px;
+	width: 70px;
+	overflow: hidden;
+}
+
+.ysj-l-drawer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 288px;
+}
+
+.ysj-l-drawer div {
+	position: relative;
+	width: 70px;
+	height: 52px;
+	margin-bottom: 20px;
+}
+
+.ysj-l-drawer div:hover>b {
+	display: none;
+}
+
+.ysj-l-drawer div img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: block;
+	width: 70px;
+	height: 52px;
+}
+
+.ysj-l-drawer div b {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: block;
+	width: 70px;
+	height: 52px;
+	background: rgba(255, 255, 255, .6);
+}
+
+.ysj-r {
+	float: right;
+	width: 1110px;
+	height: 352px;
+	position: relative;
+	overflow: hidden;
+}
+
+.ysj-r-img {
+	width: 468px;
+	height: 352px;
+	float: left;
+	overflow: hidden;
+}
+
+.ysj-r-img img {
+	transition: all .5s;
+}
+
+.ysj-r-img img:hover {
+	transform: scale(1.1);
+}
+
+#ysj-r-drawer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1110px;
+	height: 1408px;
+}
+
+.ysj-r-f {
+	position: relative;
+	display: block;
+	height: 352px;
+	width: 1110px;
+}
+
+.ysj-r-n {
+	position: absolute;
+	right: 0;
+	top: 42px;
+	width: 715px;
+	height: 270px;
+}
+
+.ysj-r-zp {
+	float: left;
+	margin-left: 20px;
+	width: 225px;
+	height: 270px;
+	background: #F3F4F8;
+}
+
+.ysj-r-zp div {
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.ysj-r-zp div img {
+	display: block;
+	width: 180px;
+	height: 180px;
+}
+
+.ysj-r-zp:hover img {
+	transform: scale(1.1);
+}
+
+.ysj-r-zp p {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	height: 18px;
+	margin-top: 20px;
+}
+
+/*艺术家  end*/
+
+/*某某艺术*/
+.yishu {
+	background: #F3F4F8;
+}
+
+.yishu-bti {
+	width: 1200px;
+	height: 48px;
+	margin: 0 auto;
+	padding-top: 65px;
+	margin-bottom: 28px;
+}
+
+.yishu-bti img {
+	display: block;
+	width: 221px;
+	height: 27px;
+	float: left;
+}
+
+.yishu-bti b {
+	cursor: pointer;
+	font-weight: 400;
+	float: right;
+	font-size: 16px;
+	height: 16px;
+	margin-top: 5px;
+}
+
+.yishu-bti b i {
+	font-size: 12px;
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	text-align: center;
+	line-height: 13px;
+	border: 1px solid #282828;
+}
+
+.yishu-bti b:hover>i {
+	color: white;
+	background: #282828;
+}
+
+.yishu-body {
+	width: 1200px;
+	height: 312px;
+	margin: 0 auto;
+}
+
+.yishu-body dl {
+	position: relative;
+	float: left;
+	background: white;
+	display: block;
+	width: 224px;
+	height: 312px;
+	margin-left: 20px;
+	margin-bottom: 100px;
+	box-shadow: 0 0 5px #ccc;
+	transition: all .5s;
+}
+
+.yishu-body dl:hover img {
+	transform: scale(1.1);
+}
+
+.yishu-body dl:hover * {
+	background: #000000;
+	color: #fff;
+}
+
+.yishu-body dl dt {
+	display: block;
+	width: 224px;
+	height: 224px;
+	overflow: hidden;
+}
+
+.yishu-body dl dt img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all .5s;
+}
+
+.yishu-body dl dd {
+	display: block;
+	width: 224px;
+	height: 88px;
+	background: #fff;
+}
+
+.yishu-body h2 {
+	padding-left: 20px;
+	line-height: 90px;
+}
+
+.yishu-body span {
+	padding-left: 20px;
+	color: #868686;
+	font-size: 15px;
+}
+
+.yishu-body h3 {
+	padding-left: 20px;
+	line-height: 50px;
+}
+
+.yishu-body p {
+	color: #AD8954;
+	padding-left: 20px;
+	font-size: 14px;
+}
+/*某某艺术  end */
+
+/*页脚*/
+
+footer {
+	background: #282828;
+}
+
+footer img {
+	display: block;
+	width: 1200px;
+	height: 180px;
+	margin: 0 auto;
+}
+
+
+/*页脚  end*/
